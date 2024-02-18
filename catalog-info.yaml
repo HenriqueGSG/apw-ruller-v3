@@ -1,0 +1,15 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: apw-ruller-v3
+  description: Applicação Nest utilizada pelo apw-root para obter as regras de uma aplicação
+  tags:
+    - backstage
+    - ruller
+    - apw
+    - mosaik
+spec:
+  type: service
+  lifecycle: experimental
+  owner: mosaik
+  repo: https://github.com/HenriqueGSG/apw-ruller-v3
