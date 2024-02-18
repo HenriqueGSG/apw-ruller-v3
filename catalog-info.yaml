@@ -8,6 +8,10 @@ metadata:
     - ruller
     - apw
     - mosaik
+
+annotations:
+  backstage.io/source-location: "https://github.com/HenriqueGSG/apw-ruller-v3"
+  backstage.io/depends-on: ["https://github.com/HenriqueGSG/Mosaik-strap-plugin"]
 spec:
   type: service
   lifecycle: experimental
